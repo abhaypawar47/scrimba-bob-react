@@ -1,0 +1,56 @@
+article {
+  display: flex;
+  float: left;
+  gap: 20px;
+  padding: 20px;
+}
+.location {
+  display: flex;
+  align-items: center; /* Vertically align all items */
+  gap: 10px; /* Space between items */
+  flex-wrap: nowrap; /* Ensure everything stays on one line */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between pin and text */
+  padding: 15px;
+}
+
+#pin-img {
+  width: 40px; /* Smaller, more appropriate size for inline */
+  height: auto;
+}
+
+.map-link {
+  margin-left: 10px; /* Extra space before the link */
+  white-space: nowrap;
+}
+
+.location-item span {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.location-item a {
+  font-size: 20px;
+  color: grey;
+}
+
+/* //------------------------------------------- */
+.place-heading {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.place-info {
+  text-align: justify;
+  margin: 20px;
+}
+
+.place-img img {
+  border-radius: 20px;
+  padding-right: 10px;
+}

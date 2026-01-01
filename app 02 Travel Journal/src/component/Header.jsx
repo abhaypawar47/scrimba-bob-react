@@ -2,11 +2,10 @@ import "./Header.css";
 
 function Header() {
   return (
-    <tjHead>
-      <div>
-        <p> 🌐 my travel jonural.</p>
-      </div>
-    </tjHead>
+    <header>
+      <img src="./globe.png"></img>
+      <h1>My Travel Journal.</h1>
+    </header>
   );
 }
 
